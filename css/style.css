@@ -1,0 +1,113 @@
+/*
+ * Copyright (c) 2012-2013 Thibaut Courouble
+ * http://www.cssflow.com
+ * Licensed under the MIT License
+ *
+ * Sass/SCSS source: http://goo.gl/IPYhT
+ * PSD by Farzad Ban: http://goo.gl/N06gV
+ */
+
+body {
+  font: 12px/20px "Lucida Grande", Tahoma, Verdana, sans-serif;
+  color: #404040;
+  background: -webkit-radial-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 14%, transparent 15%) 0 0, -webkit-radial-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 14%, transparent 15%) 7px 7px, -webkit-radial-gradient(rgba(255, 255, 255, 0.1) 14%, transparent 16%) 0 1px, -webkit-radial-gradient(rgba(255, 255, 255, 0.1) 14%, transparent 16%) 7px 8px;
+  background: -moz-radial-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 14%, transparent 15%) 0 0, -moz-radial-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 14%, transparent 15%) 7px 7px, -moz-radial-gradient(rgba(255, 255, 255, 0.1) 14%, transparent 16%) 0 1px, -moz-radial-gradient(rgba(255, 255, 255, 0.1) 14%, transparent 16%) 7px 8px;
+  background: -o-radial-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 14%, transparent 15%) 0 0, -o-radial-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 14%, transparent 15%) 7px 7px, -o-radial-gradient(rgba(255, 255, 255, 0.1) 14%, transparent 16%) 0 1px, -o-radial-gradient(rgba(255, 255, 255, 0.1) 14%, transparent 16%) 7px 8px;
+  background: radial-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 14%, transparent 15%) 0 0, radial-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 14%, transparent 15%) 7px 7px, radial-gradient(rgba(255, 255, 255, 0.1) 14%, transparent 16%) 0 1px, radial-gradient(rgba(255, 255, 255, 0.1) 14%, transparent 16%) 7px 8px;
+  background-color: #5be5f1;
+  background-size: 16px 16px;
+}
+
+
+.analytics, .analytics-dashboard {
+  margin: 39px auto;
+  padding: 15px 16px;
+  width: 95%;
+  overflow: hidden;
+  color: #3a414f;
+  text-shadow: 0 1px rgba(255, 255, 255, 0.2);
+  background: #717c8c;
+  border-radius: 5px;
+  background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.95), rgb(98, 100, 100));
+  background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.95), rgb(98, 100, 100));
+  background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.95), rgb(98, 100, 100));
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.95), rgb(98, 100, 100));
+  -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.2), inset 0 0 0 1px rgba(255, 255, 255, 0.1), 0 1px 4px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0 1px rgba(255, 255, 255, 0.2), inset 0 0 0 1px rgba(255, 255, 255, 0.1), 0 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+.analytics-title {
+  margin: 10px;
+   color: rgba(0, 0, 0, 0.6);
+    font-size: 50px;
+    text-shadow: rgba(255, 255, 255, 0.4) 4px 3px 4px;
+    font-weight: bold;
+}
+
+.app-title {
+    color: #f55454;
+}
+
+.chart h1 {
+  font-size: large;
+  margin: 5px;
+}
+
+.chart {
+  overflow: hidden;
+  padding: 10px;
+}
+
+#access-panel {
+  display: inline-block;
+    padding: 6px;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    background-color: whitesmoke;
+  width: 98%;
+}
+
+input.control {
+  padding: 3px;
+  font-size: 15px;
+      width: 25vw;
+}
+
+.btn-control {
+  padding: 12px;
+   background-color: #e9f15b;
+    color: black;
+    border: 2px solid #bfbfbb;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: hand;
+  font-size: 30px;
+}
+
+button {
+  cursor: pointer;
+}
+
+footer widget > input {
+  width: 45%;
+}
+
+footer {
+  width: 80%;
+  margin: 36px auto;
+}
+
+.btn-control:hover {
+       background-color: #cc104e;
+    color: white;
+}
+
+.widget-button.trigger:hover {
+    background-color: #ff00ee;
+    color: white;
+}
+
+.export-button.trigger:hover {
+    background-color: black;
+    color: white;
+}
