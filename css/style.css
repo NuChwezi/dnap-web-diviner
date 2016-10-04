@@ -45,7 +45,7 @@ body {
 }
 
 .app-title {
-    color: #f55454;
+    color: #928c9a;
 }
 
 .chart h1 {
@@ -74,14 +74,13 @@ input.control {
 }
 
 .btn-control {
-  padding: 12px;
-   background-color: #e9f15b;
+padding: 6px;
+  background-color: #5be5f1;
     color: black;
     border: 2px solid #bfbfbb;
     border-radius: 6px;
     font-weight: bold;
     cursor: hand;
-  font-size: 30px;
 }
 
 button {
