@@ -110,3 +110,12 @@ footer {
     background-color: black;
     color: white;
 }
+
+
+.dashboard-title.widget {
+    width: 85%;
+    margin-top: 50px;
+    padding: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
